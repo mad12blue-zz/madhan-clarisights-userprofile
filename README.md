@@ -46,7 +46,7 @@ Additional Info:
         > Retrieves id, username, first name, last name, age of all the users existing in the data source
     - Perform POST profile/new
         > Create the Profile entity with the fields described above
-    - Perform GET profile/<id>
+    - Perform GET profile/:id
         > Retrieves username, first name, last name, age if the user exists in the data source
 
 * Unit tests are written using Mocha framework
